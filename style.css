@@ -18,3 +18,78 @@ section{
     border-bottom-left-radius: 50px;
     border-top-right-radius: 50px;
 }
+card{
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    background: #e75bff;
+    left: 100px;
+    top: 100px;
+    transition: all 0.35s ease-in-out;
+    border-radius: 50%;
+}
+.front{
+    position: absolute;
+    top: 0;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    border: 4px solid crimson;
+    background: none;
+    transform-origin: 95% 40%;
+    z-index: 2;
+    transition: all 0.35s ease-in-out;
+}
+.front::after{
+    content: '';
+    width: 8px;
+    height: 8px;
+    position: absolute;
+    border-radius: 50%;
+    top: 40%;
+    left: 95%;
+    margin: -4px 0 0 -4px;
+    background: #fff;
+    box-shadow: 0 0 1px rgba(225, 225, 225, 0.4);
+}
+.card:hover .front{
+    transform: rotate(-180degrees);
+}
+.front p{
+    font-size: 10rem;
+    left: 40px;
+    text-align: center;
+}
+.text{
+    position: relative;
+    text-align: center;
+    filter: blur(3px);
+    transition: all 0.35s ease-in-out;
+    z-index: 1;
+}
+.card:hover .text{
+    filter: blur(0);
+}
+.text h1{
+    font-size: 25px;
+    color: #fff;
+    font-family: cursive;
+    font-style: oblique;
+    font-weight: bolder;
+    margin: 25px 0;
+}
+.text h3{
+    color: #fff;
+    background: crimson;
+    font-family: monospace;
+    font-weight: lighter;
+    font-size: 18px;
+}
+.text p{
+    font-family: sans-serif;
+    font-style: italic;
+    padding: 10px 0;
+    font-size: 14px;
+    color: #fff;
+    text-shadow: 0 10px 10px red;
+}
