@@ -94,7 +94,7 @@ section{
     text-shadow: 0 10px 10px red;
 }
 .letter{
-    position: absolute;
+    position: relative;
     bottom: 30%;
     right: 43%;
     text-align: center;
