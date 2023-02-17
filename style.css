@@ -95,10 +95,11 @@ section{
 }
 .letter{
     position: absolute;
-    bottom: 30%;
-    right: 43%;
     text-align: center;
     font-family: cursive;
+    bottom: 30%;
+    right: 43%;
+    
 }
 @media screen and (max-width:500px){
     section{
