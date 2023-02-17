@@ -100,6 +100,13 @@ section{
     text-align: center;
     font-family: cursive;
 }
+.letter p{
+    position: absolute;
+    bottom: 30%;
+    right: 43%;
+    text-align: center;
+    font-family: cursive;
+}
 @media screen and (max-width:500px){
     section{
         width: 100%;
