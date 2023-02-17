@@ -95,6 +95,10 @@ section{
 }
 .letter{
     font-family: cursive;
+    font-style: italic;
+    font-size: 16;
+    color: #cd88f4;
+    text-shadow: #42d7e0;
     padding: 10px 0;
     position: absolute;
     text-align: center;
