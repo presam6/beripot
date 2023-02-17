@@ -102,8 +102,8 @@ section{
 }
 .letter p{
     position: absolute;
-    bottom: 30%;
-    right: 43%;
+    bottom: 0;
+    right: 0;
     text-align: center;
     font-family: cursive;
 }
