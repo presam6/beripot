@@ -101,11 +101,12 @@ section{
     font-family: cursive;
 }
 .letter p{
+    font-family: cursive;
     position: absolute;
+    text-align: center;
     bottom: 0;
     right: 0;
-    text-align: center;
-    font-family: cursive;
+    
 }
 @media screen and (max-width:500px){
     section{
