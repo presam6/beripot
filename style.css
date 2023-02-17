@@ -95,8 +95,6 @@ section{
 }
 .letter{
     position: absolute;
-    bottom: 30%;
-    right: 43%;
     text-align: center;
     font-family: cursive;
 }
