@@ -94,8 +94,6 @@ section{
     text-shadow: 0 10px 10px red;
 }
 .letter{
-    margin: auto;
-    padding: 0%;
     position: absolute;
     text-align: center;
     font-family: cursive;
